@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" >AuditFlow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0 gap-4">
+                
+            </ul>
+            <form class="d-flex" role="search">
+                <button class="btn btn-outline-success me-4" type="button" onClick="window.location.href='http://127.0.0.1:8000/login'">Login</button>
+                <button class="btn btn-outline-success" type="button" onClick="window.location.href='http://127.0.0.1:8000/signup'">Sign up</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <div class="feature-section-wrapper py-5">
+        <div class="container-fluid px-md-5">
+            <div class="row align-items-center gx-5">
+                <div class="col-lg-6 col-md-12 mb-5 mb-lg-0 text-column">
+                    <div class="feature-content">
+                        <h1 class="feature-title">
+                            Financial insights that <br><span class="highlight">reveal themselves</span>
+                        </h1>
+                        <p class="feature-desc">
+                            Instant analysis meets AI-driven strategy. <br> 
+                            Stop guessing and start growing faster.
+                        </p>
+                        <div class="cta-wrapper">
+                            <button class="hero-cta-btn" onClick="window.location.href='http://127.0.0.1:8000/login'">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 position-relative d-flex justify-content-lg-end">
+                    <div class="video-presentation-box">
+                        <div class="psketch-overlay">
+                            <svg width="80" height="80" viewBox="0 0 100 100" class="sparkle-container">
+                                <path class="sparkle s-large flower-main" d="M50 20 L50 80 M20 50 L80 50 M30 30 L70 70 M70 30 L30 70" />
+                                <path class="sparkle s-small-1" d="M25 20 L25 30 M20 25 L30 25" />
+                                <path class="sparkle s-small-2" d="M75 60 L75 70 M70 65 L80 65" />
+                            </svg>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="video-inner-card shadow-lg">
+                            <video autoplay loop muted playsinline class="feature-video">
+                                <source src="/static/ai-financial-insights.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid px-md-5 py-5 expanded-intelligence-section">
+    <div class="psketch-wrapper">
+        <svg width="100" height="100" viewBox="0 0 100 100" class="sparkle-container">
+            <path class="sparkle s-large" d="M50 20 L50 80 M20 50 L80 50 M30 30 L70 70 M70 30 L30 70" />
+            <path class="sparkle s-small-1" d="M25 20 L25 30 M20 25 L30 25" />
+            <path class="sparkle s-small-2" d="M75 60 L75 70 M70 65 L80 65" />
+        </svg>
+    </div>
+    <br>
+    <br>
+    <div class="row align-items-center gx-lg-5">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+            <div class="dashboard-display-wrapper">
+                <img src="/static/Financial-insights.png" class="img-fluid wide-dashboard-img" alt="Intelligence Dashboard">
+            </div>
+        </div>
+        <div class="col-lg-4 ps-lg-5">
+            <div class="intelligence-content">
+                <h1 class="intelligence-title">The Intelligence Layer For Your Capital.</h1>
+                <p class="intelligence-desc">
+                    Experience a proactive financial assistant that extracts deep 
+                    insights from your data with surgical precision.
+                </p>
+                <div class="accent-line"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="hero-section mt-5 py-5">
+    <div class="container-fluid px-md-5">
+        <div class="row align-items-center gx-lg-5">  
+            <div class="col-lg-5 col-md-12 order-2 order-lg-1 pe-lg-5">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Understand your money.<br>
+                    </h1>
+                    <p class="hero-desc">
+                        AI-powered financial analytics to analyze spending,
+                        detect patterns, and generate smart insights
+                        for better financial decisions.
+                    </p>
+                    <div class="text-start mt-4">
+                        <a href="#" class="hero-cta-btn" onClick="window.location.href='http://127.0.0.1:8000/dashboard'">Explore Insights →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 order-1 order-lg-2 position-relative">
+                <div class="luxury-stage">   
+                    <div class="imgcard shadow-2xl">
+                        <img src="/static/Financial-insights.png" alt="AI Financial Insights Dashboard" class="hero-image img-fluid">
+                    </div>         
+                    <div class="glass-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    <br>
+    <br>
+    <footer class="site-footer">
+    <div class="footer-main-card">
+        <div class="footer-content-grid">   
+            <div class="footer-column brand-section">
+                <h2>AuditFlow</h2>
+            </div>
+            <div class="footer-column">
+                <h3 class="column-title">Follow us</h3>
+                <div class="social-icons" style="display: flex; gap: 12px; font-size: 18px;">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="column-title">Contact Us</h3>
+                <a href="mailto:support@auditflow.ai">support@auditflow.ai</a>
+                <a href="#" class="action-link">Contact Support →</a>
+            </div>
+            <div class="footer-column">
+                <h3 class="column-title">Location</h3>
+                <p style="font-size: 14px; color: #42526e; line-height: 1.6;">
+                    12/224 Sri Sai Nagar Colony <br>
+                    Beside Super Theater, Gachibowli, Hyderbad <br>
+                    Telangana 500097 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-bar">
+        <div class="copyright-text">Copyright © 2026 AuditFlow</div>
+        <div class="utility-links">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms</a>
+            <div class="language-picker">
+                <i class="fas fa-globe"></i> English 
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
