@@ -50,6 +50,7 @@ Backend/
 ## Tech Stack
 
 * FastAPI (Backend framework)
+* HTML , CSS , Javascript(Frontend Python Flask Templates for rendering UI)
 * Python
 * AI / LLM-based processing
 * PDF parsing tools
